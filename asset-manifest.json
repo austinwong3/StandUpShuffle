@@ -1,23 +1,26 @@
 {
   "files": {
     "main.css": "/StandUpShuffle/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/StandUpShuffle/static/js/main.7ef69332.chunk.js",
-    "main.js.map": "/StandUpShuffle/static/js/main.7ef69332.chunk.js.map",
-    "runtime-main.js": "/StandUpShuffle/static/js/runtime-main.95c45440.js",
-    "runtime-main.js.map": "/StandUpShuffle/static/js/runtime-main.95c45440.js.map",
-    "static/js/2.dcadaa1f.chunk.js": "/StandUpShuffle/static/js/2.dcadaa1f.chunk.js",
-    "static/js/2.dcadaa1f.chunk.js.map": "/StandUpShuffle/static/js/2.dcadaa1f.chunk.js.map",
-    "static/js/3.4aadf3ec.chunk.js": "/StandUpShuffle/static/js/3.4aadf3ec.chunk.js",
-    "static/js/3.4aadf3ec.chunk.js.map": "/StandUpShuffle/static/js/3.4aadf3ec.chunk.js.map",
+    "main.js": "/StandUpShuffle/static/js/main.12073a97.chunk.js",
+    "main.js.map": "/StandUpShuffle/static/js/main.12073a97.chunk.js.map",
+    "runtime-main.js": "/StandUpShuffle/static/js/runtime-main.02694c9a.js",
+    "runtime-main.js.map": "/StandUpShuffle/static/js/runtime-main.02694c9a.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/StandUpShuffle/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.59ef44a2.chunk.js": "/StandUpShuffle/static/js/2.59ef44a2.chunk.js",
+    "static/js/2.59ef44a2.chunk.js.map": "/StandUpShuffle/static/js/2.59ef44a2.chunk.js.map",
+    "static/js/3.56fc3fa0.chunk.js": "/StandUpShuffle/static/js/3.56fc3fa0.chunk.js",
+    "static/js/3.56fc3fa0.chunk.js.map": "/StandUpShuffle/static/js/3.56fc3fa0.chunk.js.map",
     "index.html": "/StandUpShuffle/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/StandUpShuffle/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.9d5b29c0.chunk.css.map": "/StandUpShuffle/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.dcadaa1f.chunk.js.LICENSE.txt": "/StandUpShuffle/static/js/2.dcadaa1f.chunk.js.LICENSE.txt",
+    "static/js/2.59ef44a2.chunk.js.LICENSE.txt": "/StandUpShuffle/static/js/2.59ef44a2.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/StandUpShuffle/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.95c45440.js",
-    "static/js/2.dcadaa1f.chunk.js",
+    "static/js/runtime-main.02694c9a.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.59ef44a2.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.7ef69332.chunk.js"
+    "static/js/main.12073a97.chunk.js"
   ]
 }

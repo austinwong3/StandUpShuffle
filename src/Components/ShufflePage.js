@@ -3,11 +3,11 @@ import Button from 'react-bootstrap/Button';
 
 class ShufflePage extends Component{
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
           teamname: 'LCD',
-          lcd: ['DDM', 'Dorie', 'Jacob', 'Graham', 'Evan', 'Ivailo', 'Kim', 'Austin']
+          lcd: this.props.team.members
         }
         this.setState({lcd: this.state.lcd.sort(() => Math.random() - 0.5)})
       }
@@ -24,7 +24,7 @@ class ShufflePage extends Component{
     render(){
         return(
             <div class="d-flex flex-column align-items-center">
-                <h1 style={{color: '#569CBF', margin: '20px'}}>{this.state.teamname}</h1>
+                <h1 style={{color: '#569CBF', margin: '20px'}}>{this.props.team.name}</h1>
                 {this.state.lcd.map((member) => 
                     <h1><span style={{width: '150px'}} class='badge badge-secondary'>{member}</span></h1>)}
                 <button class="btn btn-primary m-1" onClick={this.shuffleMembers.bind(this)}>Shuffle</button>

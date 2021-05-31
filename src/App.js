@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import ShufflePage from './Components/ShufflePage'
+import NavBar from './Components/NavBar'
 import './App.css';
 
 function App() {
@@ -20,8 +21,11 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <div class="d-flex justify-content-center m-5">
-      <ShufflePage/>
+    <div>
+      <NavBar />
+      <div class="d-flex flex-column justify-content-center">
+        <ShufflePage/>
+      </div>
     </div>
   );
 }

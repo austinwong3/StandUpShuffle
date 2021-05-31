@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/StandUpShuffle/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/StandUpShuffle/static/js/main.0853559e.chunk.js",
-    "main.js.map": "/StandUpShuffle/static/js/main.0853559e.chunk.js.map",
-    "runtime-main.js": "/StandUpShuffle/static/js/runtime-main.02694c9a.js",
-    "runtime-main.js.map": "/StandUpShuffle/static/js/runtime-main.02694c9a.js.map",
+    "main.js": "/StandUpShuffle/static/js/main.aef240b2.chunk.js",
+    "main.js.map": "/StandUpShuffle/static/js/main.aef240b2.chunk.js.map",
+    "runtime-main.js": "/StandUpShuffle/static/js/runtime-main.4cb56aa0.js",
+    "runtime-main.js.map": "/StandUpShuffle/static/js/runtime-main.4cb56aa0.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/StandUpShuffle/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.66bff167.chunk.js": "/StandUpShuffle/static/js/2.66bff167.chunk.js",
-    "static/js/2.66bff167.chunk.js.map": "/StandUpShuffle/static/js/2.66bff167.chunk.js.map",
-    "static/js/3.56fc3fa0.chunk.js": "/StandUpShuffle/static/js/3.56fc3fa0.chunk.js",
-    "static/js/3.56fc3fa0.chunk.js.map": "/StandUpShuffle/static/js/3.56fc3fa0.chunk.js.map",
+    "static/js/2.ba4a7ff5.chunk.js": "/StandUpShuffle/static/js/2.ba4a7ff5.chunk.js",
+    "static/js/2.ba4a7ff5.chunk.js.map": "/StandUpShuffle/static/js/2.ba4a7ff5.chunk.js.map",
+    "static/js/3.7db84c81.chunk.js": "/StandUpShuffle/static/js/3.7db84c81.chunk.js",
+    "static/js/3.7db84c81.chunk.js.map": "/StandUpShuffle/static/js/3.7db84c81.chunk.js.map",
     "index.html": "/StandUpShuffle/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/StandUpShuffle/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.9d5b29c0.chunk.css.map": "/StandUpShuffle/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.66bff167.chunk.js.LICENSE.txt": "/StandUpShuffle/static/js/2.66bff167.chunk.js.LICENSE.txt",
+    "static/js/2.ba4a7ff5.chunk.js.LICENSE.txt": "/StandUpShuffle/static/js/2.ba4a7ff5.chunk.js.LICENSE.txt",
     "static/media/SUS_bold_top.b20eed7d.png": "/StandUpShuffle/static/media/SUS_bold_top.b20eed7d.png",
     "static/media/logo.6ce24c58.svg": "/StandUpShuffle/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.02694c9a.js",
+    "static/js/runtime-main.4cb56aa0.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.66bff167.chunk.js",
+    "static/js/2.ba4a7ff5.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.0853559e.chunk.js"
+    "static/js/main.aef240b2.chunk.js"
   ]
 }

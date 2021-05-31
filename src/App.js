@@ -20,7 +20,7 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center m-5">
       <ShufflePage/>
     </div>
   );

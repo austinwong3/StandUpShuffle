@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/StandUpShuffle/static/css/main.02a35d5f.chunk.css",
-    "main.js": "/StandUpShuffle/static/js/main.ed257caa.chunk.js",
-    "main.js.map": "/StandUpShuffle/static/js/main.ed257caa.chunk.js.map",
+    "main.css": "/StandUpShuffle/static/css/main.48960063.chunk.css",
+    "main.js": "/StandUpShuffle/static/js/main.546b25b3.chunk.js",
+    "main.js.map": "/StandUpShuffle/static/js/main.546b25b3.chunk.js.map",
     "runtime-main.js": "/StandUpShuffle/static/js/runtime-main.5832edb2.js",
     "runtime-main.js.map": "/StandUpShuffle/static/js/runtime-main.5832edb2.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/StandUpShuffle/static/css/2.4c97ca4f.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.8ac8172b.chunk.js.map": "/StandUpShuffle/static/js/3.8ac8172b.chunk.js.map",
     "index.html": "/StandUpShuffle/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/StandUpShuffle/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.02a35d5f.chunk.css.map": "/StandUpShuffle/static/css/main.02a35d5f.chunk.css.map",
+    "static/css/main.48960063.chunk.css.map": "/StandUpShuffle/static/css/main.48960063.chunk.css.map",
     "static/js/2.6165c49b.chunk.js.LICENSE.txt": "/StandUpShuffle/static/js/2.6165c49b.chunk.js.LICENSE.txt",
     "static/media/SUS_Circle.c77d9178.png": "/StandUpShuffle/static/media/SUS_Circle.c77d9178.png",
     "static/media/SUS_bold_top.b20eed7d.png": "/StandUpShuffle/static/media/SUS_bold_top.b20eed7d.png",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.5832edb2.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.6165c49b.chunk.js",
-    "static/css/main.02a35d5f.chunk.css",
-    "static/js/main.ed257caa.chunk.js"
+    "static/css/main.48960063.chunk.css",
+    "static/js/main.546b25b3.chunk.js"
   ]
 }

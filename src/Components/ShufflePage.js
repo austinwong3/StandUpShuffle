@@ -30,7 +30,7 @@ class ShufflePage extends Component{
             <div class="d-flex flex-column align-items-center">
                 <h1 style={{color: '#569CBF', margin: '20px'}}>{this.props.team.name}</h1>
                 {this.state.members.map((member) => 
-                    <h1><span style={{width: '150px'}} class='badge badge-secondary'>{member}</span></h1>)}
+                    <h1><span style={{width: '200px', 'font-size': '30px'}} class='badge badge-secondary'>{member}</span></h1>)}
                 <button class="btn btn-primary m-1" onClick={this.shuffleMembers.bind(this)}>Shuffle</button>
                 <form class= 'm-5' onSubmit= {this.copy.bind(this)}>
                     <input style={{width: '400px'}} value={this.state.members.toString().replace(/,/g, ', ')}></input>

@@ -7,29 +7,33 @@ class ShufflePage extends Component{
         super(props);
         this.state = {
           teamname: 'LCD',
-          lcd: this.props.team.members
+          members: this.props.team.members.sort(() => Math.random() - 0.5)
         }
-        this.setState({lcd: this.state.lcd.sort(() => Math.random() - 0.5)})
       }
+
+      componentDidUpdate(prevProps) {
+        if(prevProps != this.props)
+            this.setState({members: this.props.team.members.sort(() => Math.random() - 0.5)})
+      } 
       
     shuffleMembers(){
-        this.setState({lcd: this.state.lcd.sort(() => Math.random() - 0.5)})
+        this.setState({members: this.state.members.sort(() => Math.random() - 0.5)})
     }
 
     copy(e){
         e.preventDefault()
-        navigator.clipboard.writeText(this.state.lcd.toString().replace(/,/g, ', '))
+        navigator.clipboard.writeText(this.state.members.toString().replace(/,/g, ', '))
     }
     
     render(){
         return(
             <div class="d-flex flex-column align-items-center">
                 <h1 style={{color: '#569CBF', margin: '20px'}}>{this.props.team.name}</h1>
-                {this.state.lcd.map((member) => 
+                {this.state.members.map((member) => 
                     <h1><span style={{width: '150px'}} class='badge badge-secondary'>{member}</span></h1>)}
                 <button class="btn btn-primary m-1" onClick={this.shuffleMembers.bind(this)}>Shuffle</button>
                 <form class= 'm-5' onSubmit= {this.copy.bind(this)}>
-                    <input style={{width: '400px'}} value={this.state.lcd.toString().replace(/,/g, ', ')}></input>
+                    <input style={{width: '400px'}} value={this.state.members.toString().replace(/,/g, ', ')}></input>
                     <input type='submit' value='Copy' className='submitBtn'/>
                 </form>
             </div>

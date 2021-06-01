@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import ShufflePage from './Components/ShufflePage'
+import HomePage from './Components/HomePage'
 import NavBar from './Components/NavBar'
+import SideNav from './Components/SideNav'
 import './App.css';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import firebase from 'firebase/app';
 import 'firebase/firestore';
@@ -28,7 +31,8 @@ function App() {
   const [teamsData] = useCollectionData(query)
   const teams = {}
   teamsData && teamsData.map((data) => teams[data.name] = {name: data.name, members: data.members})
-  console.log(teams)
+  const keys = []
+  teamsData && teamsData.map((data) => keys.push(data.name))
   return (
     // <div className="App">
     //   <header className="App-header">
@@ -47,10 +51,20 @@ function App() {
     //   </header>
     // </div>
     <div>
-      <NavBar />
-      <div class="d-flex flex-column justify-content-center">
-        {teamsData ? <ShufflePage team={teams['LCD']}/> : null}
-      </div>
+      <Router>
+        <NavBar />
+        <SideNav teams={keys ? keys : []}/>
+        <Switch>
+          <Route path='/team/:name' render={(props) => teamsData ? <ShufflePage team={teams[props.match.params.name]}/> : null}>
+            {/* <div class="d-flex flex-column justify-content-center">
+              {teamsData ? <ShufflePage team={teams['LCD']}/> : null}
+            </div> */}
+          </Route>
+          <Route path=''>
+            <HomePage />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }

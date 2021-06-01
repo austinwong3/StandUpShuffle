@@ -16,7 +16,7 @@ class SideBar extends Component{
         return(
             <div class="sideNav" style={{width: '100px'}}>
                 {this.props.teams.map((team) => 
-                <Link to={'/team/' + team} class='sideNavItem'>{team}</Link>
+                <Link to={'/StandUpShuffle/team/' + team} class='sideNavItem'>{team}</Link>
                 )}
             </div>
         )

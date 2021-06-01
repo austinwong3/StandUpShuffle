@@ -7,7 +7,7 @@ class NavBar extends Component{
         return(
             <div class="d-flex border-bottom">
                 <div class='w-50 ml-5'>
-                    {/* <img src={logo} style={{width: '50px', margin: '10px'}}/> */}
+                    <img src={logo} style={{width: '50px', margin: '10px'}}/>
                 </div>
                 <div class='d-flex w-50 mr-5 justify-content-end align-items-center'>
                     <Link to='/StandUpShuffle' class='link'>Home</Link>

@@ -51,16 +51,16 @@ function App() {
     //   </header>
     // </div>
     <div>
-      <Router>
+      <Router  basename={process.env.PUBLIC_URL}>
         <NavBar />
         <SideNav teams={keys ? keys : []}/>
         <Switch>
-          <Route path='/StandUpShuffle/team/:name' render={(props) => teamsData ? <ShufflePage team={teams[props.match.params.name]}/> : null}>
+          <Route path='/team/:name' render={(props) => teamsData ? <ShufflePage team={teams[props.match.params.name]}/> : null}>
             {/* <div class="d-flex flex-column justify-content-center">
               {teamsData ? <ShufflePage team={teams['LCD']}/> : null}
             </div> */}
           </Route>
-          <Route path='/StandUpShuffle'>
+          <Route path=''>
             <HomePage />
           </Route>
         </Switch>

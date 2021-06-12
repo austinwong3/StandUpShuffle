@@ -10,7 +10,7 @@ class NavBar extends Component{
                     <img src={logo} style={{width: '50px', margin: '10px'}}/>
                 </div>
                 <div class='d-flex w-50 mr-5 justify-content-end align-items-center'>
-                    <Link to='/StandUpShuffle' class='link'>Home</Link>
+                    <Link to='' class='link' style={{color: '#569CBF'}}>Home</Link>
                 </div>
             </div>
         )

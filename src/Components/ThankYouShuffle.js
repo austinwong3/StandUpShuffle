@@ -17,7 +17,7 @@ class ThankYouShuffle extends Component{
         console.log(languageCodes)
         return (
           <div class="d-flex flex-column align-items-center">
-              <Translator
+              {/* <Translator
                 from='en'
                 to={currentLanguage? currentLanguage['language'] : 'en'}
                 googleApiKey={process.env.REACT_APP_GOOGLE_TRANSLATE_API_KEY}
@@ -25,7 +25,7 @@ class ThankYouShuffle extends Component{
 
                 <h1><Translate>Thank You</Translate></h1>
                 <h1>{currentLanguage? currentLanguage['name'] : 'English'}</h1>
-                </Translator>
+                </Translator> */}
                 <a class="btn btn-primary m-1" style={{'background-color': '#569CBF', 'border-color': '#569CBF'}} target="_blank" href={'https://translate.google.com/?sl=en&tl='+(currentLanguage? currentLanguage['language'] : 'en')+'&text=thank%20you&op=translate'}>Thank You of the Day</a>
           </div>
         );

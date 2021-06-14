@@ -38,6 +38,7 @@ class ShufflePage extends Component{
                     <input type='submit' value='Copy' className='submitBtn'/>
                 </form>
                 <ThankYouShuffle/>
+
             </div>
         )
     }

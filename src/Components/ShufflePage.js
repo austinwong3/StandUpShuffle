@@ -1,5 +1,6 @@
 import {Component} from 'react'
 import Button from 'react-bootstrap/Button';
+import ThankYouShuffle from './ThankYouShuffle'
 
 class ShufflePage extends Component{
 
@@ -36,6 +37,7 @@ class ShufflePage extends Component{
                     <input style={{width: '400px'}} value={this.state.members.toString().replace(/,/g, ', ')}></input>
                     <input type='submit' value='Copy' className='submitBtn'/>
                 </form>
+                <ThankYouShuffle/>
             </div>
         )
     }
